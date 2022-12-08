@@ -1,11 +1,11 @@
-let num=13;
-for(let i=1;i<=num;i++){
-if(num%i==0){
+let number=13;
+for(let i=1;i<=number;i++){
+if(number%i==0){
 count++;
 }
 }
 if(count==2){
-console.log("Prime");
+console.log(" it is a Prime number");
 }else{
-console.log("NOt a prime");
+console.log("not a prime number");
 }
